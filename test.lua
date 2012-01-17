@@ -2,7 +2,6 @@
 
 local String = require('string')
 local UTF8 = require('./')
-UTF8 = unicode.utf8
 --p(UTF8, unicode)
 
 -- sanity --
