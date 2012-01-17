@@ -1,4 +1,4 @@
 require('./build/slnunicode/unicode')
-local UTF8 = unicode.utf8
+local Unicode = unicode
 _G.unicode = nil
-return UTF8
+return Unicode

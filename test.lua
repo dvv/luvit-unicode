@@ -1,7 +1,7 @@
 #!/usr/bin/env luvit
 
 local String = require('string')
-local UTF8 = require('./')
+local UTF8 = require('./').utf8
 --p(UTF8, unicode)
 
 -- sanity --
