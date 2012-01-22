@@ -6,7 +6,7 @@ PATH    := $(ROOT)/.luvit:$(PATH)
 all: module
 
 test: module
-	luvit test.lua
+	checkit tests/*
 
 module: build/slnunicode/unicode.luvit
 
